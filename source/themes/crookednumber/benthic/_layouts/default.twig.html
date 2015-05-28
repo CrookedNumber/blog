@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="/{{ theme_path('css/normalize.css') }}">
+  <link rel="stylesheet" href="/{{ theme_path('css/skeleton.css') }}">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <h1>{{ site.title }}</h1>
+  <div class="container">
+    <div class="row">
+      <div class="eight columns">{% block content_wrapper %}{% block content %}{% endblock %}{% endblock %}</div>
+      <div class="four columns">
+        <!--<ul class="nav">
+          <li><a href="{{ site.url }}/blog">Posts Archive</a></li>
+          <li><a href="{{ site.url }}/blog/categories">Categories</a></li>
+          <li><a href="{{ site.url }}/blog/tags">Tags</a></li>
+          <li><a href="{{ site.url }}/about">About</a></li>
+        </ul>-->
+      </div>
+    </div>
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
