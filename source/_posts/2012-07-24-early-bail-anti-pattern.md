@@ -4,7 +4,7 @@ title:  The “Early Bail” is an Anti-Pattern
 date:   2012-07-24
 ---
 
-So what _is_ the early bail? It’s a way to leverage how return works to shorten a function and -- ostensibly -- improve performance. It look like this:
+So what _is_ the early bail? It is a way to leverage how return works to shorten a function and -- ostensibly -- improve performance. It look like this:
 
 ~~~
 function foo() {
