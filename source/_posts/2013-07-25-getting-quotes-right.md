@@ -4,7 +4,7 @@ title:  "Getting Quotes Right: No Excuses!"
 date:   2015-04-15
 ---
 
-The most frequently misunderstood element of web development must be character sets and, in particular, quotes. Devs, editors, and writers love to blame anyone and anything -- Microsoft, Word, RSS, the WYSIWYG -- for their quote woes. They throw around terms like “curly quotes”,“smart quotes” and “Microsoft quotes” -- as if they were foreign, mystical characters, rather than boring, everyday UTF characters. But here are the true facts about quotes:
+Perhaps the most frequently misunderstood element of web development is character sets and, in particular, quotes. Devs, editors, and writers love to blame anyone and anything -- Microsoft, Word, RSS, the WYSIWYG -- for their quote woes. They throw around terms like “curly quotes”,“smart quotes” and “Microsoft quotes” -- as if they were foreign, mystical characters, rather than boring, everyday UTF characters. But here are the true facts about quotes:
 
 - 99% of the time, you should never use ' and " in the content of a blog post or article.
 - If you're *quoting* someone, then you should use quotation marks -- that is,  “ and ”
