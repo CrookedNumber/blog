@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Getting Quotes Right! Every Time! No Excuses!"
+title:  "Getting Quotes Right!! Every Time!! No Excuses!!"
 date:   2015-04-15
 ---
 
